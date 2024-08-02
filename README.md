@@ -48,22 +48,31 @@ Wiring:
 Connect the MCP2515 CAN module to the Arduino Pro Mini via SPI.
 Connect the TJA1050 transceiver to the MCP2515 module.
 Connect the servo and stepper motor to the Arduino Pro Mini.
-Programming:
 
-Use the Arduino IDE to upload the provided Arduino sketch to the Arduino Pro Mini.
-Ensure the MCP2515 library is included in the Arduino sketch.
 Usage
+
 Power up the STM32 microcontrollers and the Arduino Pro Mini.
+
 The STM32 microcontrollers will start communication over CANbus.
+
 You can control the fan connected to the STM32 and the servo and stepper motor connected to the Arduino via CAN messages.
+
 Code Overview
+
 STM32 Code
+
 F103_CANBus_Sender: Reads values from a joystick and button and sends both to the receiver device.
+
 F103_CANBus_Receiver: Receives CAN messages and controls the fan based on received commands.
+
 Arduino Code
+
 Arduino_CANBus_Gripper:
+
 Initializes the CAN interface using the MCP2515 module.
+
 Sends and receives CAN messages.
+
 Controls the servo and stepper motor based on received CAN messages.
 
 
