@@ -35,8 +35,6 @@ CAN library for STM32 (e.g., STM32 HAL CAN library)
 
 CAN library for Arduino (e.g., CAN)
 
-MCP2515 library for Arduino
-
 
 ![Circuit](https://github.com/Emrecanbl/CANBus-Stm32/blob/main/Foto_1.jpg?raw=true)
 
@@ -96,7 +94,7 @@ Without Interrupt
 
 With Interrupt
 
-![With_Interrupt](https://github.com/Emrecanbl/CANBus-Stm32/blob/main/8z2xup.gif)
+![With_Interrupt](https://github.com/Emrecanbl/CANBus-Stm32/blob/main/8z3igb.gif)
 
 Contributing
 
