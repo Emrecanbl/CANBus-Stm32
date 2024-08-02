@@ -65,7 +65,7 @@ Arduino_CANBus_Gripper:
 Initializes the CAN interface using the MCP2515 module.
 Sends and receives CAN messages.
 Controls the servo and stepper motor based on received CAN messages.
-![Sample](https://github.com/Emrecanbl/CANBus-Stm32/blob/main/GIF.gif?raw=true)
+![Sample](https://github.com/Emrecanbl/CANBus-Stm32/blob/main/GIF.gif)
 Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any enhancements or bug fixes.
 
