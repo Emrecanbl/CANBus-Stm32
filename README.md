@@ -38,7 +38,7 @@ CAN library for Arduino (e.g., CAN)
 MCP2515 library for Arduino
 
 
-![Sample](https://github.com/Emrecanbl/CANBus-Stm32/blob/main/Foto_1.jpg?raw=true)
+![Circuit](https://github.com/Emrecanbl/CANBus-Stm32/blob/main/Foto_1.jpg?raw=true)
 
 Wiring:
 
@@ -90,10 +90,13 @@ Sends and receives CAN messages.
 
 Controls the servo and stepper motor based on received CAN messages.
 
+Without Interrupt
 
-![Sample](https://github.com/Emrecanbl/CANBus-Stm32/blob/main/8z2xup.gif)
+![Without_Interrupt](https://github.com/Emrecanbl/CANBus-Stm32/blob/main/8z2xup.gif)
 
+With Interrupt
 
+![With_Interrupt](https://github.com/Emrecanbl/CANBus-Stm32/blob/main/8z2xup.gif)
 
 Contributing
 
